@@ -1,7 +1,7 @@
 // https://github.com/anika1103046/Assignment-3-javaScript
 
 
-//funtion for converting a number kilometer to meter
+//function for converting a number kilometer to meter
 
 function kilometerToMeter(numberInKilometer) {
     if(numberInKilometer < 0) {
@@ -98,12 +98,3 @@ function megaFriend(friendsName){
 }
 // var largestString = megaFriend(['sumaiya', 'proma', 'mustahina', 'ria'])
 // console.log(largestString);
-
-
-
-
-
-
-
-
-
