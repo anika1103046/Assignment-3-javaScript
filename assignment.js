@@ -1,3 +1,5 @@
+// https://github.com/anika1103046/Assignment-3-javaScript
+
 
 //funtion for converting a number kilometer to meter
 
@@ -10,8 +12,8 @@ function kilometerToMeter(numberInKilometer) {
     return numberInMeter;
     }
 }
-var result= kilometerToMeter(15);
-console.log(result);
+// var result= kilometerToMeter(15);
+// console.log(result);
 
 
 
@@ -33,8 +35,8 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop) {
         return totalBudget;
     }
 }
-var result = budgetCalculator(5, 3, 2);
-console.log(result);
+// var result = budgetCalculator(5, 3, 2);
+// console.log(result);
 
 
 
@@ -45,7 +47,7 @@ console.log(result);
 function hotelCost(numberOfDays) {
     var firstTenDaysCost = 100;
     var secondTenDaysCost = 80;
-    var restOfDaysCost = 70;
+    var restOfDaysCost = 50;
     var totalCost = 0;
 
     if(numberOfDays <= 0) {
@@ -66,8 +68,8 @@ function hotelCost(numberOfDays) {
     }
     return totalCost;
 }
-var result = hotelCost(23);
-console.log(result);
+// var result = hotelCost(23);
+// console.log(result);
 
 
 
@@ -80,6 +82,10 @@ function megaFriend(friendsName){
     var largestName;
     var largestNameLength = 0;
 
+    if(friendsName.length === 0) {
+        return 'Invalid input!'
+    }
+
     for (var i = 0; i < friendsName.length; i++) {
         
         if (friendsName[i].length > largestNameLength) {
@@ -90,8 +96,8 @@ function megaFriend(friendsName){
 
     return largestName;
 }
-var largestString = megaFriend(['sumaiya', 'proma', 'mustahina', 'ria'])
-console.log(largestString);
+// var largestString = megaFriend(['sumaiya', 'proma', 'mustahina', 'ria'])
+// console.log(largestString);
 
 
 
